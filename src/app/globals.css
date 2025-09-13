@@ -40,10 +40,10 @@ header.topbar {
 }
 
 .container {
-  max-width: 820px;
-  margin: 1 auto;
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  max-width: 890px;
+  margin: 1 auto ;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 
@@ -115,7 +115,8 @@ article a {
 /* Images */
 article img {
   max-width: 100%;
-  margin: 1.5rem 0;
+  margin-right: 1.5rem auto;
+  margin-left: 1.5rem auto;
   border-radius: 10px;
 }
 
@@ -125,7 +126,7 @@ article img+em {
   /* center the caption */
   font-style: italic;
   /* optional for caption style */
-  margin-top: 0.2rem;
+  margin-top: 0.6rem;
   /* small spacing from image */
   margin-left: 1.5rem;
   margin-right: 1.5rem;
