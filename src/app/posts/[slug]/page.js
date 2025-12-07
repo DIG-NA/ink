@@ -1,7 +1,10 @@
 import { getAllPosts, getPost } from '@/lib/posts';
 
-export default async function PostPage({ params }) {
-  const post = await getPost(params.slug);
+export default async function PostPage( props ) {
+
+  const params = await props.params;
+  const { slug } = params;
+  const post = await getPost(slug);
 
 
 
